@@ -93,7 +93,7 @@ and K8s-like APIs for its custom resource definitions, namely the
 Postgres CRD and the operator CRD. The usage of the code generation follows
 conventions from the K8s community. Relevant scripts live in the `hack`
 directory:
-* `update-codegen.sh` triggers code generation for the APIs defined in `pkg/apis/acid.zalan.do`,
+* `update-codegen.sh` triggers code generation for the APIs defined in `pkg/apis/acid.zalan.do/`,
 * `verify-codegen.sh` checks if the generated code is up-to-date (to be used within CI).
 
 The `/pkg/generated/` contains the resultant code. To make these scripts work,

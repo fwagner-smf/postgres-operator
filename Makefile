@@ -79,6 +79,7 @@ scm-source.json: .git
 
 tools:
 	@go get -u honnef.co/go/tools/cmd/staticcheck
+	@go get k8s.io/client-go@kubernetes-1.15.0
 
 fmt:
 	@gofmt -l -w -s $(DIRS)
